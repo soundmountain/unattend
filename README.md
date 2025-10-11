@@ -1,5 +1,11 @@
-# unattendedd Windows 11 Setup
+# unattended Windows 11 Setup
+
+This is meant for new pcs and laptops primarly for my own usage, because you should not install your system based on the settings and scripts that someone else made. If you stumble upon this, use it as a blueprint for your own setup.
+
 based on Schneegans.de and ChrisTitusTech
+ - activates local integrated administrator account with the password "changeme"
+ - debloates preinstalled Apps
+ - dectivates/minimizes telemetry
 
 ## Generell Usage (but please make your own)
 Windows OOBE
@@ -13,6 +19,6 @@ curl -L -o C:\Windows\Panther\unattend.xml https://raw.githubusercontent.com/sou
 Since I don't want to type a lot, I created a subdomain u.domain.tld with a webserver and certificate that redirects to https://raw.githubusercontent.com/soundmountain/unattend/refs/heads/main/unattend.cmd
 So I only type
 ```powershell
-curl -L -o unattend.cmd u.example.com
+curl -L -o unattend.cmd u.domain.tld
 unattend.cmd
 ```
