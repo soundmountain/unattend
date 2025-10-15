@@ -7,7 +7,7 @@ based on Schneegans.de and ChrisTitusTech
  - debloates preinstalled Apps
  - dectivates/minimizes telemetry
 
-## Generell Usage (but please make your own)
+## General Usage (but please make your own)
 Windows OOBE
 SHIFT + F10
 ```powershell
